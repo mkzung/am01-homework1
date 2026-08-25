@@ -55,7 +55,7 @@ Sectors go on the **y-axis** deliberately. Names like "Consumer Non-Durables" ar
 my_stocks = ["AAPL", "JPM", "DIS", "DPZ", "ANF", "XOM", "SPY"]
 ```
 
-Six stocks plus **SPY**, the S&P 500 ETF, which acts as the benchmark. This is the set Ben worked with, so the two of us are describing the same plots.
+Six stocks plus **SPY**, the S&P 500 ETF, which acts as the benchmark. This is the set the team worked with, so everyone is describing the same plots.
 
 ```python
 end_date = pd.Timestamp.today().normalize()
@@ -169,16 +169,16 @@ Three things fall out, and they are what the written answers argue:
 
 Honest caveat: 67 observations from one five-year window is thin, and averages over such a short period are noisy. The relative *risk* ordering is far more stable across periods than the return ordering, so say that in the answer.
 
-### A note on Ben's write-up
+### A note on the density-plot write-up
 
-The density-plot answer is Ben's text, with two numbers corrected after checking them against the data:
+The density-plot answer came from a teammate, with two numbers corrected after checking them against the data:
 
-- He wrote that ANF ranges "approximately -60% to 60%". The **actual monthly returns run -40.9% to +42.3%**. The plotted KDE curve does spread wider than the data because of how kernel smoothing works, so his reading of the picture was fair, but quoting the real range is safer.
-- He described 1.29% as the SPY density **peak**. It is actually the SPY **mean**; the peak of the curve sits a bit higher, around +2.6%. The text now says "average monthly return".
+- The text said ANF ranges "approximately -60% to 60%". The **actual monthly returns run -40.9% to +42.3%**. The plotted KDE curve does spread wider than the data because of how kernel smoothing works, so reading the picture that way was fair, but quoting the real range is safer.
+- 1.29% was described as the SPY density **peak**. It is actually the SPY **mean**; the peak of the curve sits a bit higher, around +2.6%. The text now says "average monthly return".
 
-His two main claims both check out: ANF has the largest standard deviation (16.8%, roughly double the next stock) and SPY the smallest (4.4%). His point about DIS peaking below zero is also right, with a median of -1.07%, and his caution about not calling that a loss is worth keeping, since the mean is -0.16%, which is close to flat.
+Both main claims check out: ANF has the largest standard deviation (16.8%, roughly double the next stock) and SPY the smallest (4.4%). The point about DIS peaking below zero is also right, with a median of -1.07%, and the caution about not calling that a loss is worth keeping, since the mean is -0.16%, which is close to flat.
 
-Because his writing is in the notebook, **he is named in the Details block as a collaborator**. That is exactly what the block is for.
+The notebook is submitted as **Team 8**, and the Details block says so. That is exactly what the block is for.
 
 ## 9. Before you submit
 

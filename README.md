@@ -1,7 +1,7 @@
 # AM01 — Homework 1
 
 Applied Statistics with Python (AM01), London Business School, MAM2027.
-Author: Maksim Gorbuk
+Author: Team 8
 
 ## Contents
 
@@ -37,6 +37,6 @@ Window: five years to the run date, monthly returns.
 
 ## Collaboration
 
-The write-up of the density plot in the stocks section was written by Ben, a teammate.
-Two of his figures were checked against the data and corrected before use; see the note at the
-end of `STOCKS_EXPLAINED.md`. He is named in the Details block of the notebook.
+Submitted as **Team 8**. The write-up of the density plot in the stocks section came from a
+teammate; two of its figures were checked against the data and corrected before use (see the
+note at the end of `STOCKS_EXPLAINED.md`).
