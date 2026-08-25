@@ -7,7 +7,7 @@ Author: Team 8
 
 | File | What it is |
 |---|---|
-| `maksim-gorbuk-homework1.ipynb` | the assignment notebook |
+| `team8-homework1.ipynb` | the assignment notebook |
 | `STOCKS_EXPLAINED.md` | walkthrough of the stocks section: the finance, the pandas, and how to read each plot |
 | `MOVIES_EXPLAINED.md` | walkthrough of the movies section: duplicates, aggregation, the three scatterplots |
 | `PANDAS_DRILLS.md` | paper exercises for practising these patterns from memory |
