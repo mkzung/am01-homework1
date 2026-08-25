@@ -1,0 +1,35 @@
+# AM01 — Homework 1
+
+Applied Statistics with Python (AM01), London Business School, MAM2027.
+Author: Maksim Gorbuk
+
+## Contents
+
+| File | What it is |
+|---|---|
+| `maksim-gorbuk-homework1.ipynb` | the assignment notebook |
+| `STOCKS_EXPLAINED.md` | walkthrough of the stocks section: the finance, the pandas, and how to read each plot |
+
+## Status
+
+- **Stocks (NYSE / yfinance)** — done: companies per sector, price download, daily & monthly returns, summary statistics, density plot, risk-return plot, both written answers.
+- **Movies (IMDB)** — not started.
+- **San Francisco rents** — not started.
+
+## Running it
+
+The notebook needs the AM01 course environment (uv, Python 3.12):
+
+```bash
+uv sync
+uv run jupyter lab
+```
+
+Data loads from the local `../data/` folder when present and otherwise falls back to the
+course repository over HTTPS, so the notebook also runs in Colab.
+
+## Stocks analysed
+
+Six NYSE stocks across six sectors plus SPY as the benchmark:
+JPM (finance), XOM (energy), KO (consumer staples), JNJ (healthcare), NKE (apparel), CCL (travel).
+Window: five years to the run date, monthly returns.
