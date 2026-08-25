@@ -16,7 +16,7 @@ Author: Maksim Gorbuk
 
 - **Stocks (NYSE / yfinance)** — done: companies per sector, price download, daily & monthly returns, summary statistics, density plot, risk-return plot, both written answers.
 - **Movies (IMDB)** — done: missing values & duplicates, counts by genre, return on budget, top 15 directors, ratings distribution, three scatterplots, all written answers.
-- **San Francisco rents** — not started.
+- **San Francisco rents** — not started (deliberately left out for now).
 
 ## Running it
 
@@ -32,6 +32,11 @@ course repository over HTTPS, so the notebook also runs in Colab.
 
 ## Stocks analysed
 
-Six NYSE stocks across six sectors plus SPY as the benchmark:
-JPM (finance), XOM (energy), KO (consumer staples), JNJ (healthcare), NKE (apparel), CCL (travel).
+AAPL, JPM, DIS, DPZ, ANF, XOM, plus SPY as the benchmark.
 Window: five years to the run date, monthly returns.
+
+## Collaboration
+
+The write-up of the density plot in the stocks section was written by Ben, a teammate.
+Two of his figures were checked against the data and corrected before use; see the note at the
+end of `STOCKS_EXPLAINED.md`. He is named in the Details block of the notebook.
